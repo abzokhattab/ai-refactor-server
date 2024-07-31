@@ -1,0 +1,351 @@
+[
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "register",
+    "Updated": "ensure_sync",
+    "Location": "src/flask/blueprints.py/Blueprint",
+    "Original Method Line": "(212,213)",
+    "Extracted/Inlined Method Line": 474,
+    "Extracted/Inlined Lines": [
+      246
+    ],
+    "Description": " The method ensure_sync from the module src/flask/blueprints.py in class Blueprint is extracted from method register from the module src/flask/blueprints.py in class Blueprint ",
+    "Commit": "00f5a3e55ca3b6dd4e98044ab76f055dc74997ac"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "get_db",
+    "Updated": "connect_db",
+    "Location": "examples/flaskr/flaskr.py",
+    "Original Method Line": "(39,48)",
+    "Extracted/Inlined Method Line": 32,
+    "Extracted/Inlined Lines": [
+      45,
+      46,
+      47
+    ],
+    "Description": " The method connect_db from the module examples/flaskr/flaskr.py is extracted from method get_db from the module examples/flaskr/flaskr.py ",
+    "Commit": "05161d35844ba7cc1f46c08a51de632b5f3c5269"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "open",
+    "Updated": "_request_from_builder_args",
+    "Location": "src/flask/testing.py/FlaskClient",
+    "Original Method Line": "(175,191)",
+    "Extracted/Inlined Method Line": 182,
+    "Extracted/Inlined Lines": [
+      209,
+      211,
+      212,
+      214
+    ],
+    "Description": " The method _request_from_builder_args from the module src/flask/testing.py in class FlaskClient is extracted from method open from the module src/flask/testing.py in class FlaskClient ",
+    "Commit": "1be65b1b699b0512e3b38e3e05d42d083cfd12f1"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "test_session_vary_cookie",
+    "Updated": "expect",
+    "Location": "tests/test_basic.py",
+    "Original Method Line": "(532,532)",
+    "Extracted/Inlined Method Line": 559,
+    "Extracted/Inlined Lines": [
+      557,
+      558
+    ],
+    "Description": " The method expect from the module tests/test_basic.py is extracted from method test_session_vary_cookie from the module tests/test_basic.py ",
+    "Commit": "5d9dd0b379a63d5a90265f2469f86fbd81b05853"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "main",
+    "Updated": "build",
+    "Location": "scripts/make-release.py",
+    "Original Method Line": "(115,122)",
+    "Extracted/Inlined Method Line": 88,
+    "Extracted/Inlined Lines": [
+      141
+    ],
+    "Description": " The method build from the module scripts/make-release.py is extracted from method main from the module scripts/make-release.py ",
+    "Commit": "63deee0a8b0963f1657e2d327773d65632a387d3"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "register",
+    "Updated": "_merge_blueprint_funcs",
+    "Location": "src/flask/sansio/blueprints.py/Blueprint",
+    "Original Method Line": "(273,273)",
+    "Extracted/Inlined Method Line": 379,
+    "Extracted/Inlined Lines": [
+      333,
+      334,
+      336,
+      338,
+      339,
+      340,
+      349,
+      351,
+      352,
+      354,
+      355,
+      356,
+      360,
+      361,
+      362
+    ],
+    "Description": " The method _merge_blueprint_funcs from the module src/flask/sansio/blueprints.py in class Blueprint is extracted from method register from the module src/flask/sansio/blueprints.py in class Blueprint ",
+    "Commit": "72c85e80c8ef9e6d5b5644f7bb23cdc175ca3873"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "locate_app",
+    "Updated": "call_factory_from_regex",
+    "Location": "flask/cli.py",
+    "Original Method Line": "(128,151)",
+    "Extracted/Inlined Method Line": 99,
+    "Extracted/Inlined Lines": [
+      160,
+      161,
+      162,
+      163,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      176
+    ],
+    "Description": " The method call_factory_from_regex from the module flask/cli.py is extracted from method locate_app from the module flask/cli.py ",
+    "Commit": "7a1a594b2649890fca5d0e2a24db111046d68f39"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "send_from_directory",
+    "Updated": "safe_join",
+    "Location": "flask/helpers.py",
+    "Original Method Line": "(391,417)",
+    "Extracted/Inlined Method Line": 391,
+    "Extracted/Inlined Lines": [
+      418,
+      419,
+      420,
+      421,
+      422,
+      424
+    ],
+    "Description": " The method safe_join from the module flask/helpers.py is extracted from method send_from_directory from the module flask/helpers.py ",
+    "Commit": "7ed3196e8d1861acd027c409c47e51cce812ba63"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "dumps",
+    "Updated": "_dump_arg_defaults",
+    "Location": "flask/json.py",
+    "Original Method Line": "(71,85)",
+    "Extracted/Inlined Method Line": 71,
+    "Extracted/Inlined Lines": [
+      76,
+      77
+    ],
+    "Description": " The method _dump_arg_defaults from the module flask/json.py is extracted from method dumps from the module flask/json.py ",
+    "Commit": "8339cb35082fc93d3a9c98616aed7fe0c1c642dc"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "loads",
+    "Updated": "_load_arg_defaults",
+    "Location": "flask/json.py",
+    "Original Method Line": "(88,105)",
+    "Extracted/Inlined Method Line": 79,
+    "Extracted/Inlined Lines": [
+      93,
+      94
+    ],
+    "Description": " The method _load_arg_defaults from the module flask/json.py is extracted from method loads from the module flask/json.py ",
+    "Commit": "8339cb35082fc93d3a9c98616aed7fe0c1c642dc"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "get_source",
+    "Updated": "_get_source_explained",
+    "Location": "flask/templating.py/DispatchingJinjaLoader",
+    "Original Method Line": "(54,54)",
+    "Extracted/Inlined Method Line": 59,
+    "Extracted/Inlined Lines": [
+      56,
+      57,
+      59,
+      60,
+      61,
+      62,
+      63,
+      68,
+      71,
+      72,
+      74,
+      75,
+      76
+    ],
+    "Description": " The method _get_source_explained from the module flask/templating.py in class DispatchingJinjaLoader is extracted from method get_source from the module flask/templating.py in class DispatchingJinjaLoader ",
+    "Commit": "96ec24f6e0ff77a24d0151afe20ec7c97118019f"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "get_source",
+    "Updated": "_get_source_fast",
+    "Location": "flask/templating.py/DispatchingJinjaLoader",
+    "Original Method Line": "(54,54)",
+    "Extracted/Inlined Method Line": 79,
+    "Extracted/Inlined Lines": [
+      59,
+      60,
+      61,
+      76
+    ],
+    "Description": " The method _get_source_fast from the module flask/templating.py in class DispatchingJinjaLoader is extracted from method get_source from the module flask/templating.py in class DispatchingJinjaLoader ",
+    "Commit": "96ec24f6e0ff77a24d0151afe20ec7c97118019f"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "main",
+    "Updated": "build",
+    "Location": "scripts/make-release.py",
+    "Original Method Line": "(115,122)",
+    "Extracted/Inlined Method Line": 88,
+    "Extracted/Inlined Lines": [
+      141
+    ],
+    "Description": " The method build from the module scripts/make-release.py is extracted from method main from the module scripts/make-release.py ",
+    "Commit": "9bf5c3b3a3bdc3f2f2dcca2b5747378470d0d354"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "full_dispatch_request",
+    "Updated": "finalize_request",
+    "Location": "flask/app.py/Flask",
+    "Original Method Line": "(1611,1611)",
+    "Extracted/Inlined Method Line": 1628,
+    "Extracted/Inlined Lines": [
+      1626,
+      1627,
+      1628,
+      1629
+    ],
+    "Description": " The method finalize_request from the module flask/app.py in class Flask is extracted from method full_dispatch_request from the module flask/app.py in class Flask ",
+    "Commit": "9cd32cac32433d7ea03cbd64de6ab5c8ea64a981"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "loadTestsFromName",
+    "Updated": "getRootSuite",
+    "Location": "flask/testsuite/__init__.py/BetterLoader",
+    "Original Method Line": "(140,146)",
+    "Extracted/Inlined Method Line": 143,
+    "Extracted/Inlined Lines": [
+      142
+    ],
+    "Description": " The method getRootSuite from the module flask/testsuite/__init__.py in class BetterLoader is extracted from method loadTestsFromName from the module flask/testsuite/__init__.py in class BetterLoader ",
+    "Commit": "a082a5e0ba81af15653fe56501c8d2530d3621dc"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "fix_imports",
+    "Updated": "fix_from_imports",
+    "Location": "scripts/flaskext_migrate.py",
+    "Original Method Line": "(19,30)",
+    "Extracted/Inlined Method Line": 37,
+    "Extracted/Inlined Lines": [
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      33,
+      34
+    ],
+    "Description": " The method fix_from_imports from the module scripts/flaskext_migrate.py is extracted from method fix_imports from the module scripts/flaskext_migrate.py ",
+    "Commit": "c90c4e5e8c796e5dbfa32b30adf68c8582f6162a"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "fix_imports",
+    "Updated": "fix_standard_imports",
+    "Location": "scripts/flaskext_migrate.py",
+    "Original Method Line": "(19,30)",
+    "Extracted/Inlined Method Line": 64,
+    "Extracted/Inlined Lines": [
+      20,
+      21,
+      22,
+      34
+    ],
+    "Description": " The method fix_standard_imports from the module scripts/flaskext_migrate.py is extracted from method fix_imports from the module scripts/flaskext_migrate.py ",
+    "Commit": "c90c4e5e8c796e5dbfa32b30adf68c8582f6162a"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "app_template_filter",
+    "Updated": "add_app_template_filter",
+    "Location": "flask/blueprints.py/Blueprint",
+    "Original Method Line": "(188,188)",
+    "Extracted/Inlined Method Line": 200,
+    "Extracted/Inlined Lines": [
+      193,
+      194,
+      195
+    ],
+    "Description": " The method add_app_template_filter from the module flask/blueprints.py in class Blueprint is extracted from method app_template_filter from the module flask/blueprints.py in class Blueprint ",
+    "Commit": "ce4d589d5b7bbda46b9c34211dcd3e1c90ee83c9"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "open",
+    "Updated": "_pop_reqctx_if_necessary",
+    "Location": "flask/testing.py/FlaskClient",
+    "Original Method Line": "(88,88)",
+    "Extracted/Inlined Method Line": 117,
+    "Extracted/Inlined Lines": [
+      89,
+      91
+    ],
+    "Description": " The method _pop_reqctx_if_necessary from the module flask/testing.py in class FlaskClient is extracted from method open from the module flask/testing.py in class FlaskClient ",
+    "Commit": "d49221bf2eeabbfa4a5be4e537b35bae1eb6d272"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "handle_http_exception",
+    "Updated": "_find_error_handler",
+    "Location": "flask/app.py/Flask",
+    "Original Method Line": "(1389,1469)",
+    "Extracted/Inlined Method Line": 1462,
+    "Extracted/Inlined Lines": [
+      1396
+    ],
+    "Description": " The method _find_error_handler from the module flask/app.py in class Flask is extracted from method handle_http_exception from the module flask/app.py in class Flask ",
+    "Commit": "eae48d97b085626c1860a900a27ff63c439e0edb"
+  },
+  {
+    "Refactoring Type": "Extract Method",
+    "Original": "__exit__",
+    "Updated": "auto_pop",
+    "Location": "flask/ctx.py/RequestContext",
+    "Original Method Line": "(359,366)",
+    "Extracted/Inlined Method Line": 355,
+    "Extracted/Inlined Lines": [
+      365,
+      367,
+      369
+    ],
+    "Description": " The method auto_pop from the module flask/ctx.py in class RequestContext is extracted from method __exit__ from the module flask/ctx.py in class RequestContext ",
+    "Commit": "f1918093ac70d589a4d67af0d77140734c06c13d"
+  }
+]
